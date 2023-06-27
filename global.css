@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    text-decoration: inherit;
+    text-transform: inherit;
+    color: inherit;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    overflow: hidden;
+}
+  
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/background.webp");
+    background-size: cover;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+    z-index: -1;
+}
+
+.banner .logo {
+    max-width: 100%;
+    height: auto;
+    width: 230px;
+    height: 100px;
+}
+
+.h-20 {
+    height: 20vh;
+}
+
+.bold-color {
+    color: #676767;
+    font-weight: bold;
+    font-size: 3.5vw; 
+    letter-spacing: 0.08em;
+}
+
+@media (max-width: 767px) {
+    .bold-color {
+        font-size: 5.5vw;
+        letter-spacing: 0.08em;
+    }
+}
+
+.title-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow-edit {
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,.17);
+}
+
+.smaller-image {
+    width: 80%;
+}
+
+.description-product {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #553194;
+    margin-bottom: 0.8em;
+    font-weight: 500;
+}
+
+.validate-product {
+    font-size: 1em;
+    line-height: 1em;
+    color: #635a74;
+    margin-bottom: 0.8em;
+    padding: 0 1.3em;
+}
+
+.center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-product {
+    font-size: 1.6em;
+    color: #ab313b;
+    font-weight: bold;
+}
+
+.networks {
+    background-color: #de9931;
+    margin: 0;
+}
+
+.icon {
+    font-size: 5vw;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .icon {
+        font-size: 10vw;
+    }
+}
+
+.footer {
+    color: #676767;
+    font-size: 0.7em;
+    padding: 0 5px;
+}
