@@ -44,10 +44,12 @@ a {
 }
 
 .banner .logo {
-    max-width: 100%;
-    height: auto;
-    width: 230px;
-    height: 100px;
+    max-width: 230px;
+}
+
+.center-image img {
+    width: 80%;
+    min-height: 150px;
 }
 
 .h-20 {
@@ -104,6 +106,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 12.5em;
 }
 
 .value-product {
