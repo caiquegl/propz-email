@@ -60,11 +60,12 @@ a {
     font-size: 3.4vw; 
     letter-spacing: 0.08em;
     margin: 0 10px;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
     .bold-color {
-        font-size: 5.5vw;
+        font-size: 5vw;
         letter-spacing: 0.08em;
     }
 }
